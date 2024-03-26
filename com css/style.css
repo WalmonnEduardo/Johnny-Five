@@ -1,0 +1,117 @@
+/* Redefinição de estilos padrão */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #e8f0fe;
+    font-family: "Roboto", sans-serif;
+    color: #444;
+    line-height: 1.5;
+    width: 60%;
+    margin: 0 auto;
+    padding: 2% 0;
+  }
+  
+  /* Estilos específicos do currículo */
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .cabecalho {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .cabecalho img {
+    margin-right: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: rgb(140, 76, 8);
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    color: rgb(140, 76, 8);
+    margin-bottom: 10px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-top: solid 1px gray;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #444;
+  }
+  
+  a:hover {
+    color: rgb(140, 76, 8);
+  }
+  
+  /* Estilos específicos para cada seção */
+  
+  .perfil p {
+    text-align: left;
+  }
+  
+  .habilidades li {
+    padding-left: 10px;
+  }
+  
+  .formacao-academica li {
+    padding-bottom: 10px;
+  }
+  
+  .experiencia h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .experiencia h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .experiencia a {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+  }
+  
+  .premios-e-reconhecimento li {
+    padding-bottom: 10px;
+  }
+  
+  /* Estilos para mídia de impressão */
+  
+  @media print {
+    body {
+      width: 100%;
+    }
+  }
+  
